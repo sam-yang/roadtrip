@@ -1,30 +1,66 @@
 @keyframes slide1 {
 	from {
-		transform: translateX(0px);
+		transform: translate3d(0px, 0, 0);
 	}
 	to {
-		transform: translateX(-1000px);
+		transform: translate3d(-2500px, 0, 0);
 		rotation: .001;
 	}
 }
-
-#mt1 {
-	animation: slide1 5s;
-	animation-timing-function: linear;
-	-webkit-transform: translate3d(0, 0, 0);
+@keyframes slide2 {
+	from {
+		transform: translate3d(0px, 0, 0);
+	}
+	to {
+		transform: translate3d(-5000px, 0, 0);
+		rotation: .001;
+	}
 }
-#mt2 {
-	animation: slide1 7s;
-	animation-timing-function: linear;
-	-webkit-transform: translate3d(0, 0, 0);
-}
-#mt3 {
+#mt1base {
 	animation: slide1 9s;
 	animation-timing-function: linear;
-	-webkit-transform: translate3d(0, 0, 0);
 }
-#mt4 {
-	animation: slide1 11s;
+#mt1first{
+animation: slide2 18s infinite;
 	animation-timing-function: linear;
-	-webkit-transform: translate3d(0, 0, 0);
+}
+#mt1second{
+animation: slide2 18s 9s infinite;
+	animation-timing-function: linear;
+}
+#mt2base {
+	animation: slide1 12s;
+	animation-timing-function: linear;
+}
+#mt2first{
+animation: slide2 24s infinite;
+	animation-timing-function: linear;
+}
+#mt2second{
+animation: slide2 24s 12s infinite;
+	animation-timing-function: linear;
+}
+#mt3base {
+	animation: slide1 15s;
+	animation-timing-function: linear;
+}
+#mt3first{
+animation: slide2 30s infinite;
+	animation-timing-function: linear;
+}
+#mt3second{
+animation: slide2 30s 15s infinite;
+	animation-timing-function: linear;
+}
+#mt4base {
+	animation: slide1 20s;
+	animation-timing-function: linear;
+}
+#mt4first{
+animation: slide2 40s infinite;
+	animation-timing-function: linear;
+}
+#mt4second{
+animation: slide2 40s 20s infinite;
+	animation-timing-function: linear;
 }
