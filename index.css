@@ -1,0 +1,30 @@
+@keyframes slide1 {
+	from {
+		transform: translateX(0px);
+	}
+	to {
+		transform: translateX(-1000px);
+		rotation: .001;
+	}
+}
+
+#mt1 {
+	animation: slide1 5s;
+	animation-timing-function: linear;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#mt2 {
+	animation: slide1 7s;
+	animation-timing-function: linear;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#mt3 {
+	animation: slide1 9s;
+	animation-timing-function: linear;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#mt4 {
+	animation: slide1 11s;
+	animation-timing-function: linear;
+	-webkit-transform: translate3d(0, 0, 0);
+}
