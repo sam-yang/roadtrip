@@ -14,18 +14,6 @@
 		transform: translate3d(-2420px, 0, 0);
 	}
 }
-/*#mt1base {
-	animation: slide1 9s linear forwards;
-}
-#mt2base {
-	animation: slide1 12s linear forwards;
-}
-#mt3base {
-	animation: slide1 15s linear forwards;
-}
-#mt4base {
-	animation: slide1 20s linear forwards;
-}*/
 #mt1first{
 	animation: slide2 18s infinite linear;
 }
